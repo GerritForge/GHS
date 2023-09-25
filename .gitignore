@@ -1,3 +1,21 @@
+# intellij
+/.idea
+/.ijwb/
+/.settings
+
+# vscode
+/.vscode
+
+# sbt's target directories
+target/
+
+# metals
+.metals
+.bloop
+project/**/metals.sbt
+
+/.bsp/
+
 *.class
 *.log
 
