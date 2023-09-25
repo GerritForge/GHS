@@ -1,0 +1,211 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "344a898a_5960154b",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-25T20:55:33Z",
+      "side": 1,
+      "message": "Nit: I think this sounds better without `finally`.",
+      "range": {
+        "startLine": 13,
+        "startChar": 95,
+        "endLine": 13,
+        "endChar": 102
+      },
+      "revId": "6129d341fec0cbc3321a1fd6f8be54f4f63878f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "23bda9b8_525124f0",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-25T20:55:33Z",
+      "side": 1,
+      "message": "Nit: I think `aims` works better here.",
+      "range": {
+        "startLine": 13,
+        "startChar": 4,
+        "endLine": 13,
+        "endChar": 9
+      },
+      "revId": "6129d341fec0cbc3321a1fd6f8be54f4f63878f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "97431118_932b59a4",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-25T20:55:33Z",
+      "side": 1,
+      "message": "I don\u0027t think this requires capitalisation.",
+      "range": {
+        "startLine": 13,
+        "startChar": 24,
+        "endLine": 13,
+        "endChar": 35
+      },
+      "revId": "6129d341fec0cbc3321a1fd6f8be54f4f63878f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "33e333a0_4c8e0634",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-25T20:55:33Z",
+      "side": 1,
+      "message": "`tool` (or `provide`)?",
+      "range": {
+        "startLine": 15,
+        "startChar": 4,
+        "endLine": 15,
+        "endChar": 9
+      },
+      "revId": "6129d341fec0cbc3321a1fd6f8be54f4f63878f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5df250a6_57344262",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-25T20:55:33Z",
+      "side": 1,
+      "message": "Typo: `maintenance`.",
+      "range": {
+        "startLine": 18,
+        "startChar": 129,
+        "endLine": 18,
+        "endChar": 139
+      },
+      "revId": "6129d341fec0cbc3321a1fd6f8be54f4f63878f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f1cef73_9d7da05a",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-25T20:55:33Z",
+      "side": 1,
+      "message": "Nit: I don\u0027t think we need to say both `when` and `schedule`, these mean the same thing. I\u0027d probably remove the former.",
+      "range": {
+        "startLine": 18,
+        "startChar": 106,
+        "endLine": 18,
+        "endChar": 166
+      },
+      "revId": "6129d341fec0cbc3321a1fd6f8be54f4f63878f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f16266ec_99ad31e4",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-25T20:55:33Z",
+      "side": 1,
+      "message": "`of`.",
+      "range": {
+        "startLine": 22,
+        "startChar": 148,
+        "endLine": 22,
+        "endChar": 152
+      },
+      "revId": "6129d341fec0cbc3321a1fd6f8be54f4f63878f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5a63762f_5a09fbec",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-25T20:55:33Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this say `what Git server is running`?",
+      "range": {
+        "startLine": 22,
+        "startChar": 48,
+        "endLine": 22,
+        "endChar": 69
+      },
+      "revId": "6129d341fec0cbc3321a1fd6f8be54f4f63878f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "45949023_463871c6",
+        "filename": "README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-25T20:55:33Z",
+      "side": 1,
+      "message": "`collect`.",
+      "range": {
+        "startLine": 23,
+        "startChar": 150,
+        "endLine": 23,
+        "endChar": 156
+      },
+      "revId": "6129d341fec0cbc3321a1fd6f8be54f4f63878f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
