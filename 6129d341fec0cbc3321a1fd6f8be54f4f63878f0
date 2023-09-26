@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f74c88db_40cf36e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-26T08:21:57Z",
+      "side": 1,
+      "message": "Yes, the project name can be stylised however we want, but by convention the repo [1] is [2] normally [3] fully [4] lower-cased [5], even when the dealing with an acronym (although I\u0027m sure we can find exceptions).\n\nIn practice, it\u0027s a little more user-friendly as we don\u0027t need to reach out for the shift key when typing it out. URLs are case sensitive, but most filesystems are not 😊\n\nNot a sticking point if you prefer all-caps.\n\n[1] https://github.com/openjdk/jdk\n[2] https://github.com/typelevel/fs2\n[3] https://github.com/zio/zio\n[4] https://github.com/http4s/http4s\n[5] https://github.com/junit-team/junit5",
+      "parentUuid": "4e93b84f_6885d816",
+      "revId": "6129d341fec0cbc3321a1fd6f8be54f4f63878f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "344a898a_5960154b",
         "filename": "README.md",
         "patchSetId": 1
