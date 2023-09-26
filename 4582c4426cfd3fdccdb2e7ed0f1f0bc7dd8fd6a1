@@ -22,6 +22,30 @@
       },
       "revId": "4582c4426cfd3fdccdb2e7ed0f1f0bc7dd8fd6a1",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "879b2cd7_42081090",
+        "filename": "project/Dependencies.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-26T20:25:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d9ee5c2b_a2b09828",
+      "range": {
+        "startLine": 5,
+        "startChar": 83,
+        "endLine": 5,
+        "endChar": 84
+      },
+      "revId": "4582c4426cfd3fdccdb2e7ed0f1f0bc7dd8fd6a1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
