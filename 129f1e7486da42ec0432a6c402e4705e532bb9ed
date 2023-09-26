@@ -34,6 +34,24 @@
       "parentUuid": "8556d9fa_cdcbd382",
       "revId": "129f1e7486da42ec0432a6c402e4705e532bb9ed",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36c1f1db_0cd81755",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-26T13:44:32Z",
+      "side": 1,
+      "message": "It generates quite a big file, I don\u0027t think we need most of it. I reckon we can extend it as needed.\n\nHow do you mean you resolved it?",
+      "parentUuid": "dafe70aa_9a33a6f6",
+      "revId": "129f1e7486da42ec0432a6c402e4705e532bb9ed",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
