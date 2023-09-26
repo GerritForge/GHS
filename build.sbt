@@ -9,6 +9,8 @@ lazy val root = (project in file("."))
   .settings(
     name := "GHS",
     libraryDependencies ++= Seq(
+      logback,
+      scalaLogging,
       quartz,
       munit % Test
     )
