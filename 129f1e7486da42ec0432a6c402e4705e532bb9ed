@@ -16,6 +16,24 @@
       "message": "just a recommendation, you can double check in `https://gitignore.io/` and try this option: `intellij+all` it will generate it for you.",
       "revId": "129f1e7486da42ec0432a6c402e4705e532bb9ed",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dafe70aa_9a33a6f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-26T13:41:31Z",
+      "side": 1,
+      "message": "I resolved it. I leave it to you to mark it as resolved.",
+      "parentUuid": "8556d9fa_cdcbd382",
+      "revId": "129f1e7486da42ec0432a6c402e4705e532bb9ed",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
