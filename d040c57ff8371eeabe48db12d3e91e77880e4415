@@ -88,6 +88,24 @@
       "parentUuid": "43c6085c_6f80738f",
       "revId": "d040c57ff8371eeabe48db12d3e91e77880e4415",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9222622c_5be944b3",
+        "filename": "project/Dependencies.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-26T13:57:58Z",
+      "side": 1,
+      "message": "Let\u0027s see where we get.",
+      "parentUuid": "fc28d9d9_1726bc7f",
+      "revId": "d040c57ff8371eeabe48db12d3e91e77880e4415",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
