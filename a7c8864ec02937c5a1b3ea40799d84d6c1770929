@@ -1,0 +1,234 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f127bb8_d0c1d252",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-26T08:29:14Z",
+      "side": 1,
+      "message": "`performance standards`",
+      "range": {
+        "startLine": 3,
+        "startChar": 55,
+        "endLine": 3,
+        "endChar": 75
+      },
+      "revId": "a7c8864ec02937c5a1b3ea40799d84d6c1770929",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2caadbb9_99af9477",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-26T08:29:14Z",
+      "side": 1,
+      "message": "Typo: `Repository`. But also, I think this should be lower-cased (`repository`).",
+      "range": {
+        "startLine": 3,
+        "startChar": 4,
+        "endLine": 3,
+        "endChar": 13
+      },
+      "revId": "a7c8864ec02937c5a1b3ea40799d84d6c1770929",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12742441_4d82f7fc",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-26T08:29:14Z",
+      "side": 1,
+      "message": "`rebases`",
+      "range": {
+        "startLine": 11,
+        "startChar": 126,
+        "endLine": 11,
+        "endChar": 134
+      },
+      "revId": "a7c8864ec02937c5a1b3ea40799d84d6c1770929",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f0c5ad7f_1c9e4d2b",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-26T08:29:14Z",
+      "side": 1,
+      "message": "`AI-based`",
+      "range": {
+        "startLine": 18,
+        "startChar": 79,
+        "endLine": 18,
+        "endChar": 87
+      },
+      "revId": "a7c8864ec02937c5a1b3ea40799d84d6c1770929",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5611886a_9f2b38df",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-26T08:29:14Z",
+      "side": 1,
+      "message": "`decision` is unnecessary.",
+      "range": {
+        "startLine": 18,
+        "startChar": 70,
+        "endLine": 18,
+        "endChar": 78
+      },
+      "revId": "a7c8864ec02937c5a1b3ea40799d84d6c1770929",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "713d34b7_bcdcfc72",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-26T08:29:14Z",
+      "side": 1,
+      "message": "`include` (unless those are the only tasks).",
+      "range": {
+        "startLine": 19,
+        "startChar": 141,
+        "endLine": 19,
+        "endChar": 143
+      },
+      "revId": "a7c8864ec02937c5a1b3ea40799d84d6c1770929",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3fd28620_26afa31b",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-26T08:29:14Z",
+      "side": 1,
+      "message": "`the removal`",
+      "range": {
+        "startLine": 19,
+        "startChar": 144,
+        "endLine": 19,
+        "endChar": 151
+      },
+      "revId": "a7c8864ec02937c5a1b3ea40799d84d6c1770929",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "04863185_0a836fba",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-26T08:29:14Z",
+      "side": 1,
+      "message": "`be it Gerrit, Github, or Gitlab`. We should probably say \"or any other\" too, as we\u0027re not limited to the ones listed, no?",
+      "range": {
+        "startLine": 22,
+        "startChar": 76,
+        "endLine": 22,
+        "endChar": 98
+      },
+      "revId": "a7c8864ec02937c5a1b3ea40799d84d6c1770929",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72abc123_374d9f06",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-26T08:29:14Z",
+      "side": 1,
+      "message": "`matter`",
+      "range": {
+        "startLine": 22,
+        "startChar": 40,
+        "endLine": 22,
+        "endChar": 47
+      },
+      "revId": "a7c8864ec02937c5a1b3ea40799d84d6c1770929",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "23befe85_f64f799b",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-26T08:29:14Z",
+      "side": 1,
+      "message": "` system in place`",
+      "range": {
+        "startLine": 23,
+        "startChar": 129,
+        "endLine": 23,
+        "endChar": 146
+      },
+      "revId": "a7c8864ec02937c5a1b3ea40799d84d6c1770929",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
