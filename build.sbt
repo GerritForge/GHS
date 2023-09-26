@@ -7,7 +7,7 @@ ThisBuild / organizationName := "GerritForge"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "GHS",
+    name                        := "GHS",
     libraryDependencies += munit % Test
   )
 
