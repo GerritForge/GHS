@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "988c7d10_212d9ffe",
+        "filename": "src/main/scala/com/gerritforge/ghs/schedule/Test.scala",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-26T15:37:14Z",
+      "side": 1,
+      "message": "Apologies for this. I merged by mistake.",
+      "revId": "bd8bc8225e8b06a4085f98d2aa74779b1d9e0ccf",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ],
   "submitRequirementResults": []
 }
