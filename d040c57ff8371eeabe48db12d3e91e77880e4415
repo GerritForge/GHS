@@ -16,6 +16,24 @@
       "message": "why not scalatest?",
       "revId": "d040c57ff8371eeabe48db12d3e91e77880e4415",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "04957026_fcad8774",
+        "filename": "project/Dependencies.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-26T13:46:34Z",
+      "side": 1,
+      "message": "This was what `sbt new` gave us out of the box - it\u0027s simple to pick up, thought we could give it a try. Do you think we should use Scalatest instead?",
+      "parentUuid": "85b11183_8504cbcf",
+      "revId": "d040c57ff8371eeabe48db12d3e91e77880e4415",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
