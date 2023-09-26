@@ -14,6 +14,7 @@ lazy val root = (project in file("."))
     name := "GHS",
     libraryDependencies ++= Seq(
       kamon,
+      pureConfig,
       quartz,
       munit % Test
     )
