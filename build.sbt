@@ -15,8 +15,9 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       kamon,
       logback,
-      scalaLogging,
+      pureConfig,
       quartz,
+      scalaLogging,
       munit % Test
     )
   )
