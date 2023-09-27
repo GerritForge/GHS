@@ -20,7 +20,7 @@ lazy val root = (project in file("."))
       quartz,
       scalaLogging,
       scalaTest % Test,
-      sttp % Test
+      sttp      % Test
     )
   )
 
