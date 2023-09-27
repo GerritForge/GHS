@@ -5,6 +5,10 @@ ThisBuild / version          := "0.1.0-SNAPSHOT"
 ThisBuild / organization     := "com.gerritforge"
 ThisBuild / organizationName := "GerritForge"
 
+// For scalafix
+ThisBuild / semanticdbEnabled := true
+ThisBuild / semanticdbVersion := scalafixSemanticdb.revision
+
 lazy val root = (project in file("."))
   .settings(
     name := "GHS",

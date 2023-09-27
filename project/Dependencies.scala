@@ -1,4 +1,5 @@
 import sbt._
+import scalafix.sbt.ScalafixPlugin.autoImport._
 
 object Dependencies {
   lazy val quartz = "org.quartz-scheduler" % "quartz" % "2.3.2"
