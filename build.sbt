@@ -9,6 +9,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "GHS",
     libraryDependencies ++= Seq(
+      kamon,
       quartz,
       munit % Test
     )
