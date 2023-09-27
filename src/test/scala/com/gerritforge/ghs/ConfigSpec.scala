@@ -16,8 +16,8 @@ class ConfigSpec extends AnyFlatSpec with Matchers {
     val expectedTasks =
       Tasks(List(Tasks.Project("project1", "rm", "-fr"), Tasks.Project("project2", "jgit gc", "--prune=now")))
 
-    val metricsCollection = getClass.getResource("/collection.conf").getPath
-    val tasks             = getClass.getResource("/tasks.conf").getPath
+    val metricsCollection = "collection.conf"
+    val tasks             = "tasks.conf"
     Config(metricsCollection, tasks) shouldBe Config(expectedMetrics, expectedTasks)
   }
 }
