@@ -74,6 +74,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "46a10541_8b4327a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-09-27T18:42:53Z",
+      "side": 1,
+      "message": "@Darius: renaming is a bit of a pain.Unless you are strong about that, I would stick to capital",
+      "parentUuid": "0778d62d_61d2a219",
+      "revId": "6129d341fec0cbc3321a1fd6f8be54f4f63878f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "344a898a_5960154b",
         "filename": "README.md",
         "patchSetId": 1
