@@ -6,6 +6,7 @@ import pureconfig.generic.auto._
 
 import scala.concurrent.duration.FiniteDuration
 import Config._
+import com.typesafe.config.ConfigFactory
 
 import java.io.File
 
@@ -14,8 +15,8 @@ final case class Config(metricsCollection: MetricsCollection, tasks: Tasks)
 object Config {
   def apply(metricsPath: String, tasksPath: String): Config = {
     val configE = for {
-      metricsPath <- ConfigSource.file(metricsPath).load[MetricsCollection]
-      tasksPath   <- ConfigSource.file(tasksPath).load[Tasks]
+      metricsPath <- ConfigSource.fromConfig(ConfigFactory.load(metricsPath)).load[MetricsCollection]
+      tasksPath   <- ConfigSource.fromConfig(ConfigFactory.load(tasksPath)).load[Tasks]
     } yield Config(metricsPath, tasksPath)
     configE.fold(error => throw ConfigReaderException(error), identity)
   }
