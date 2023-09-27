@@ -10,6 +10,8 @@ lazy val root = (project in file("."))
     name := "GHS",
     libraryDependencies ++= Seq(
       kamon,
+      logback,
+      scalaLogging,
       quartz,
       munit % Test
     )
