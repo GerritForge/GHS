@@ -19,7 +19,8 @@ lazy val root = (project in file("."))
       pureConfig,
       quartz,
       scalaLogging,
-      munit % Test
+      scalaTest % Test,
+      sttp % Test
     )
   )
 
