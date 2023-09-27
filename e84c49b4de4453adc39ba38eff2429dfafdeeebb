@@ -34,6 +34,24 @@
       "parentUuid": "dc0c248a_80502c05",
       "revId": "e84c49b4de4453adc39ba38eff2429dfafdeeebb",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f4df64dd_5f0774a7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-27T15:20:31Z",
+      "side": 1,
+      "message": "Well it looks that is a problem with the UI. If you download the change and look at the differences on the first commit we can see that there are differences.",
+      "parentUuid": "238a6c03_8a1262fc",
+      "revId": "e84c49b4de4453adc39ba38eff2429dfafdeeebb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
