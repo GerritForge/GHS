@@ -52,6 +52,24 @@
       "parentUuid": "238a6c03_8a1262fc",
       "revId": "e84c49b4de4453adc39ba38eff2429dfafdeeebb",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26e69bf9_e23e1d1a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-09-27T15:26:54Z",
+      "side": 1,
+      "message": "If I do a diff from command line I get this, which is what we are expecting:\n\n```\ncommit e84c49b4de4453adc39ba38eff2429dfafdeeebb (HEAD)\nAuthor: Alvaro Vilaplana Garcia \u003calvaro.vilaplana@gmail.com\u003e\nDate:   Wed Sep 27 08:45:09 2023 +0100\n\n    Run scalafmtSbt to format sbt files\n\n    Change-Id: I63162701b1e9960ace8f51651d5d40fd2f704fb4\n\ndiff --git a/project/Dependencies.scala b/project/Dependencies.scala\nindex d252c22..9884876 100644\n--- a/project/Dependencies.scala\n+++ b/project/Dependencies.scala\n@@ -1,7 +1,7 @@\n import sbt._\n\n object Dependencies {\n-  lazy val quartz \u003d \"org.quartz-scheduler\" % \"quartz\" % \"2.3.2\"\n-  lazy val munit  \u003d \"org.scalameta\"       %% \"munit\"  % \"0.7.29\"\n-  lazy val kamon \u003d \"io.kamon\" %% \"kamon-prometheus\" % \"2.5.9\"\n+  lazy val quartz \u003d \"org.quartz-scheduler\" % \"quartz\"           % \"2.3.2\"\n+  lazy val munit  \u003d \"org.scalameta\"       %% \"munit\"            % \"0.7.29\"\n+  lazy val kamon  \u003d \"io.kamon\"            %% \"kamon-prometheus\" % \"2.5.9\"\n }\n\n```",
+      "parentUuid": "f4df64dd_5f0774a7",
+      "revId": "e84c49b4de4453adc39ba38eff2429dfafdeeebb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
