@@ -35,6 +35,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c626016_78456ef8",
+        "filename": "src/test/scala/com/gerritforge/ghs/config/MetricsConfSpec.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T12:02:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1763cc97_2c6b2955",
+      "revId": "cce32efda5027c1799f2152530522c1809b7181c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e1c25d22_054a5aa9",
@@ -48,6 +66,24 @@
       "writtenOn": "2023-09-27T11:17:25Z",
       "side": 1,
       "message": "do you want to specify explicitily the type `Result[MetricsConf]`?",
+      "revId": "cce32efda5027c1799f2152530522c1809b7181c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "900c2b76_f6e92000",
+        "filename": "src/test/scala/com/gerritforge/ghs/config/MetricsConfSpec.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T12:02:26Z",
+      "side": 1,
+      "message": "I need the type argument here or on `load` - but I think you\u0027re right it\u0027s less noisy if I put it on `load`.",
+      "parentUuid": "e1c25d22_054a5aa9",
       "revId": "cce32efda5027c1799f2152530522c1809b7181c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
