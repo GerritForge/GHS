@@ -16,6 +16,24 @@
       "message": "This commit is empty or am I missing something ?",
       "revId": "e84c49b4de4453adc39ba38eff2429dfafdeeebb",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "238a6c03_8a1262fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T14:33:56Z",
+      "side": 1,
+      "message": "Newline character at the end of the `Dependencies` file.",
+      "parentUuid": "dc0c248a_80502c05",
+      "revId": "e84c49b4de4453adc39ba38eff2429dfafdeeebb",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
