@@ -2,6 +2,7 @@ import sbt._
 import scalafix.sbt.ScalafixPlugin.autoImport._
 
 object Dependencies {
+  lazy val cats         = "org.typelevel"                 %% "cats-core"        % "2.10.0"
   lazy val jgit         = "org.eclipse.jgit"               % "org.eclipse.jgit" % "6.7.0.202309050840-r"
   lazy val kamon        = "io.kamon"                      %% "kamon-prometheus" % "2.5.9"
   lazy val logback      = "ch.qos.logback"                 % "logback-core"     % "1.4.11"
