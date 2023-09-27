@@ -90,6 +90,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e7531cb_52aba214",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T22:11:55Z",
+      "side": 1,
+      "message": "No problem, keep it all caps.",
+      "parentUuid": "46a10541_8b4327a4",
+      "revId": "6129d341fec0cbc3321a1fd6f8be54f4f63878f0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "344a898a_5960154b",
