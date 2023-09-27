@@ -1,4 +1,5 @@
 import sbt._
+import scalafix.sbt.ScalafixPlugin.autoImport._
 
 object Dependencies {
   lazy val jgit         = "org.eclipse.jgit"            % "org.eclipse.jgit" % "6.7.0.202309050840-r"
