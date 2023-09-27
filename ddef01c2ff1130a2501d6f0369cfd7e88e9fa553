@@ -1,0 +1,231 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a91624b2_e9fc0776",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T23:22:01Z",
+      "side": 1,
+      "message": "Does this mean it returns a 200 when the request fails?",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75f2b2f4_4578414d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T23:22:01Z",
+      "side": 1,
+      "message": "Typo: `Absence`.",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 66
+      },
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f2cfb03d_c9985706",
+        "filename": "build.sbt",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T23:22:01Z",
+      "side": 1,
+      "message": "If we are switching, can we do this in a different change?",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "48a40306_8a69bd19",
+        "filename": "src/main/scala/example/Hello.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T23:22:01Z",
+      "side": 1,
+      "message": "I don\u0027t think we should extend this... we should probably remove it in a separate change and add a new `GhsApp` runnable class for this change? To be honest I think at this point whatever\u0027s simplest - so maybe even just renaming this will do.",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93d51915_288822b1",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T23:22:01Z",
+      "side": 1,
+      "message": "This file looks unformatted.",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e4ea68f_478704f5",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T23:22:01Z",
+      "side": 1,
+      "message": "This package should be `com.gerritforge.ghs.http`.",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8da4ccb0_922d180a",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T23:22:01Z",
+      "side": 1,
+      "message": "I\u0027m curious about this choice... is it dictated by Kamon?\n\nNit: Why not use a native Scala http server?",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93b58785_08056108",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T23:22:01Z",
+      "side": 1,
+      "message": "Nit: we don\u0027t need an `if` here, it can go into the `Some`.",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c22a1fc7_2e570ead",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T23:22:01Z",
+      "side": 1,
+      "message": "This could be part of the guard.",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c3fa7db_80f95078",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T23:22:01Z",
+      "side": 1,
+      "message": "In Scala convention this should be named `val AuthorizationHeader` [1]. Is there no Java constant we can use for this, without declaring our own?\n\n[1] https://docs.scala-lang.org/style/naming-conventions.html#constants-values-and-variables",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "337e9c3a_5068db86",
+        "filename": "src/test/scala/example/HelloSpec.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T23:22:01Z",
+      "side": 1,
+      "message": "Same as `Hello.scala`, we\u0027ve probably outlived this file now.",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "53a8d9a2_bb4ba3d1",
+        "filename": "src/test/scala/http/GhsMetricsServerSpec.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T23:22:01Z",
+      "side": 1,
+      "message": "This package should be `com.gerritforge.ghs.http`.",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d21f923_f463c5c3",
+        "filename": "src/test/scala/http/GhsMetricsServerSpec.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-27T23:22:01Z",
+      "side": 1,
+      "message": "Any reason we\u0027re not importing this at the top of the file?",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
