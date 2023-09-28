@@ -54,6 +54,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d9c9d1c_cf7eb9f6",
+        "filename": "src/main/scala/com/gerritforge/ghs/Config.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-28T13:37:23Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "03106dc6_b7214b6a",
+      "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7121a3b0_54d71fc9",
