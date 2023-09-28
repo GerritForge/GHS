@@ -54,6 +54,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e2e383c_5e2b6e31",
+        "filename": "project/Dependencies.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-28T15:58:45Z",
+      "side": 1,
+      "message": "Not having `valueOr` is meh, as we now need a fold with an identity. Anyway, done.",
+      "parentUuid": "eb8ce246_0f575842",
+      "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "efa0bca4_4338a325",
