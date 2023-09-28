@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0eb5f0b6_42b3de16",
+        "filename": "project/Dependencies.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-28T15:31:24Z",
+      "side": 1,
+      "message": "Yes, definitely - I just thought we were going to bring it in sooner or later. I don\u0027t mind taking it out if you\u0027d rather we were cats-free for now - a flatMap will do just fine too.",
+      "parentUuid": "d6f52192_6d352684",
+      "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "efa0bca4_4338a325",
         "filename": "src/main/scala/com/gerritforge/ghs/Config.scala",
         "patchSetId": 1
@@ -106,6 +124,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c08f52e9_0389ffd5",
+        "filename": "src/main/scala/com/gerritforge/ghs/Config.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-28T15:31:24Z",
+      "side": 1,
+      "message": "Yes, that\u0027s better 😊",
+      "parentUuid": "db7af563_a2f42847",
+      "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7121a3b0_54d71fc9",
@@ -154,6 +190,24 @@
       "writtenOn": "2023-09-28T14:13:58Z",
       "side": 1,
       "message": "`.toString` is redundant",
+      "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ae48e34_8dad0891",
+        "filename": "src/test/scala/com/gerritforge/ghs/ConfigSpec.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-28T15:31:24Z",
+      "side": 1,
+      "message": "Good spot - leftover from before I found `getPath`.",
+      "parentUuid": "81321fac_b8b3cc0c",
       "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
