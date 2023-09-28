@@ -16,6 +16,24 @@
       "message": "- Would it not more easy to have separate for the moment and in the future we can merge them under the same Config case class?\n- What is the benefit behind encoding both configurations together? \n- Do we have requirements for that decision?\n- Are we not coupling 2 different configurations that maybe they have different requirements in terms of validations?",
       "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "17733360_75b09f89",
+        "filename": "src/main/scala/com/gerritforge/ghs/Config.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-28T13:31:30Z",
+      "side": 1,
+      "message": "I took the liberty of placing them into the same object, with the reasoning that this is all config, and we may just want a single config object rather than 3 (application, metrics, tasks).\n\nOur requirements are fairly loose at the moment.\n\nHowever it won\u0027t take long to split them, if you\u0027d prefer they were kept separate for now I\u0027m happy to do that.",
+      "parentUuid": "efa0bca4_4338a325",
+      "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
