@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d6f52192_6d352684",
+        "filename": "project/Dependencies.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T14:13:58Z",
+      "side": 1,
+      "message": "isn\u0027t it an overkill to bring in an entire lib for a simple task?",
+      "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "efa0bca4_4338a325",
         "filename": "src/main/scala/com/gerritforge/ghs/Config.scala",
         "patchSetId": 1
@@ -74,6 +91,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "db7af563_a2f42847",
+        "filename": "src/main/scala/com/gerritforge/ghs/Config.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T14:13:58Z",
+      "side": 1,
+      "message": "not sure `Metrics` actually captures the essence of what this class is supposed to be doing, perhaps `MetricsCollection`?",
+      "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7121a3b0_54d71fc9",
         "filename": "src/test/scala/com/gerritforge/ghs/ConfigSpec.scala",
         "patchSetId": 1
@@ -103,6 +137,23 @@
       "side": 1,
       "message": "As discussed IRL, the `Config.apply` takes paths to the files, so passing config strings would require a signature change. We\u0027re going to leave this for now, and make changes as required.",
       "parentUuid": "7121a3b0_54d71fc9",
+      "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "81321fac_b8b3cc0c",
+        "filename": "src/test/scala/com/gerritforge/ghs/ConfigSpec.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T14:13:58Z",
+      "side": 1,
+      "message": "`.toString` is redundant",
       "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
