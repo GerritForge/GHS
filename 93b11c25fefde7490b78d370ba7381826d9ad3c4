@@ -16,6 +16,24 @@
       "message": "I guess that name of the project is the absolute path of the project. For that reason I was thinking if name should be `java.nio.file.Path` instead of String otherwise the case class should provide a method to return a Path. \n\nwdyt?",
       "revId": "93b11c25fefde7490b78d370ba7381826d9ad3c4",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48e831e1_ec33ca10",
+        "filename": "src/main/scala/com/gerritforge/ghs/config/MetricsConf.scala",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-28T07:44:45Z",
+      "side": 1,
+      "message": "Good point. Right now I don\u0027t think we know what it is - I assumed the project name. As you say it may end up being a filesystem path. One to address in a later change perhaps, either repurposing/renaming this field, or adding a new one.",
+      "parentUuid": "a3e03277_712ba1d0",
+      "revId": "93b11c25fefde7490b78d370ba7381826d9ad3c4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
