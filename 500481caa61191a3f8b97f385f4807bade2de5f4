@@ -46,6 +46,30 @@
       },
       "revId": "500481caa61191a3f8b97f385f4807bade2de5f4",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e9592e33_5c6f64f2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-09-28T23:34:21Z",
+      "side": 1,
+      "message": "What do you think is the tricky part? Keeping a global config with the path of the git repository? Or passing it along?",
+      "parentUuid": "c66cb131_4cad5b2e",
+      "range": {
+        "startLine": 7,
+        "startChar": 44,
+        "endLine": 7,
+        "endChar": 48
+      },
+      "revId": "500481caa61191a3f8b97f385f4807bade2de5f4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
