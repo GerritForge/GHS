@@ -70,6 +70,30 @@
       },
       "revId": "500481caa61191a3f8b97f385f4807bade2de5f4",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7166c847_a95389cd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-28T23:36:47Z",
+      "side": 1,
+      "message": "I think we should have a configuration file as:\n```\ngerrit_site\u003d/whatever-path/\nprojects \u003d [\n  {\n    path \u003d pull-replication\n    frequency \u003d 15s\n  }\n]\n```\n\nI think the configuration file should be the source of truth for the configuration.\n\nOf course we could keep the door open to inject values from environment variables:\n```\ngerrit_site\u003d/whatever-path/\ngerrit_site\u003d${?GERRIT_SITE}\nprojects \u003d [\n  {\n    path \u003d pull-replication\n    frequency \u003d 15s\n  }\n]\n```",
+      "parentUuid": "c66cb131_4cad5b2e",
+      "range": {
+        "startLine": 7,
+        "startChar": 44,
+        "endLine": 7,
+        "endChar": 48
+      },
+      "revId": "500481caa61191a3f8b97f385f4807bade2de5f4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
