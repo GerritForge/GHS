@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "efa0bca4_4338a325",
+        "filename": "src/main/scala/com/gerritforge/ghs/Config.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-28T13:26:45Z",
+      "side": 1,
+      "message": "- Would it not more easy to have separate for the moment and in the future we can merge them under the same Config case class?\n- What is the benefit behind encoding both configurations together? \n- Do we have requirements for that decision?\n- Are we not coupling 2 different configurations that maybe they have different requirements in terms of validations?",
+      "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
