@@ -94,6 +94,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "10923278_2a9e4322",
+        "filename": "build.sbt",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-28T09:18:17Z",
+      "side": 1,
+      "message": "I meant do it as a parent of this change, not a child. Otherwise you\u0027ll have to change the existing test(s) (I added at least one) that are written in `munit` as part of this change too.",
+      "parentUuid": "4d42efb8_762739d1",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "48a40306_8a69bd19",
@@ -176,6 +194,24 @@
       "side": 1,
       "message": "No it is not dictated by Kamon, however Kamon provides a nice way to inject your implementation through config, provided it extends the `EmbeddedHttpServer`. \n\nI did not use a native scala http server because this is hacking 😊 so i went with the fastest possible solution that works (ie just copying what Kamon already provides, and adding the Authorization-check feature) in order to make faster progress, and we can obv swap it in the future with something more native.",
       "parentUuid": "8da4ccb0_922d180a",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbc120cc_05018006",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-28T09:18:17Z",
+      "side": 1,
+      "message": "Fair enough 😊",
+      "parentUuid": "a1b2d698_680f2f05",
       "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
