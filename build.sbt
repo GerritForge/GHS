@@ -1,3 +1,4 @@
+import org.typelevel.scalacoptions.ScalacOptions
 import Dependencies._
 
 ThisBuild / scalaVersion     := "2.13.12"
@@ -9,6 +10,10 @@ ThisBuild / organizationName := "GerritForge"
 ThisBuild / semanticdbEnabled := true
 ThisBuild / semanticdbVersion := scalafixSemanticdb.revision
 
+// This makes the tpolecat plugin and scalatest play nice
+// https://github.com/typelevel/sbt-tpolecat#scalatest-warnings
+Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement
+
 lazy val root = (project in file("."))
   .settings(
     name := "GHS",
@@ -19,8 +24,11 @@ lazy val root = (project in file("."))
       pureConfig,
       quartz,
       scalaLogging,
-      scalaTest % Test,
-      sttp      % Test
+      tapir,
+      tapirNetty,
+      scalaTest           % Test,
+      sttp                % Test,
+      tapirSttpStubServer % Test
     )
   )
 
