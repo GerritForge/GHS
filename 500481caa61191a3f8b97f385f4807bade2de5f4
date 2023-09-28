@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20f9dca9_9b3f237e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-09-28T23:16:13Z",
+      "side": 1,
+      "message": "I have been thinking about this. Since the idea is that we are going to run a GHS per Git server, I think we could:\n* keep the project name in the config:\n * make metrics \"friendlier\" since one of the label/tag will be the project name rather than the path\n * make config file easier to manage\n* add a global configuration to specify where the git repositories are located, similarly to $GERRIT_SITE\n\nSorry, I could have brought it up earlier.\n\nWDYT?",
+      "range": {
+        "startLine": 7,
+        "startChar": 44,
+        "endLine": 7,
+        "endChar": 48
+      },
+      "revId": "500481caa61191a3f8b97f385f4807bade2de5f4",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
