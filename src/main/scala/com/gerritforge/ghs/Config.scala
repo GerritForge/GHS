@@ -5,8 +5,9 @@ import pureconfig.error.ConfigReaderException
 import pureconfig.generic.auto._
 
 import scala.concurrent.duration.FiniteDuration
-
 import Config._
+
+import java.io.File
 
 final case class Config(metricsCollection: MetricsCollection, tasks: Tasks)
 
@@ -19,7 +20,7 @@ object Config {
     configE.fold(error => throw ConfigReaderException(error), identity)
   }
 
-  final case class MetricsCollection(projects: List[MetricsCollection.Project])
+  final case class MetricsCollection(gitSiteBasePath: File, projects: List[MetricsCollection.Project])
 
   object MetricsCollection {
     final case class Project(name: String, frequency: FiniteDuration)
