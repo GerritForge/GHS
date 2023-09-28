@@ -13,6 +13,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "GHS",
     libraryDependencies ++= Seq(
+      jgit,
       kamon,
       logback,
       pureConfig,
