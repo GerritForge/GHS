@@ -129,6 +129,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f60393cd_d752fb5e",
+        "filename": "src/main/scala/example/Hello.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:54:53Z",
+      "side": 1,
+      "message": "Yup, I initially hooked into this class to get something working, but forgot to refactor. Sorted now.",
+      "parentUuid": "48a40306_8a69bd19",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "93d51915_288822b1",
@@ -146,6 +164,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d181fac5_1a1cbbed",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:54:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "93d51915_288822b1",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8e4ea68f_478704f5",
@@ -159,6 +195,24 @@
       "writtenOn": "2023-09-27T23:22:01Z",
       "side": 1,
       "message": "This package should be `com.gerritforge.ghs.http`.",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33a702c3_4adb4267",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:54:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8e4ea68f_478704f5",
       "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -286,6 +340,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "784e9e8a_4e024983",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:54:53Z",
+      "side": 1,
+      "message": "Given that the `token \u003d\u003d s\"Bearer $authorizationToken\"` cannot move to the Some, then putting it in the guard will make the code more complex, as we will have a longer guard and we will need another case statement (to cover the `else` part). I think leaving it as is makes the code more readable.",
+      "parentUuid": "58533676_b09c1061",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e820e6a8_1c755110",
@@ -299,6 +371,24 @@
       "writtenOn": "2023-09-28T05:42:40Z",
       "side": 1,
       "message": "`OutputStream` is `AutoCloseable`, we should use `Using` to close it.",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3ceb81c4_f3d6b2b2",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:54:53Z",
+      "side": 1,
+      "message": "Cool, that also remove the horrible var.",
+      "parentUuid": "e820e6a8_1c755110",
       "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -338,6 +428,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b1b7b21_7e0388f6",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:54:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0ba847a2_3789e01e",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "337e9c3a_5068db86",
@@ -351,6 +459,24 @@
       "writtenOn": "2023-09-27T23:22:01Z",
       "side": 1,
       "message": "Same as `Hello.scala`, we\u0027ve probably outlived this file now.",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "599c5f0f_4ea00fe7",
+        "filename": "src/test/scala/example/HelloSpec.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:54:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "337e9c3a_5068db86",
       "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -372,6 +498,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bfe341a6_a66d939f",
+        "filename": "src/test/scala/http/GhsMetricsServerSpec.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:54:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "53a8d9a2_bb4ba3d1",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2d21f923_f463c5c3",
@@ -385,6 +529,24 @@
       "writtenOn": "2023-09-27T23:22:01Z",
       "side": 1,
       "message": "Any reason we\u0027re not importing this at the top of the file?",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d1139cf_7df0b456",
+        "filename": "src/test/scala/http/GhsMetricsServerSpec.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:54:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2d21f923_f463c5c3",
       "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
