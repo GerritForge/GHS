@@ -87,6 +87,24 @@
       "message": "I was wondering before if maybe is better to define `collection.conf` and `tasks.conf` programatically to avoid jumping into the files to check them or to understand them. Like something like that:\n\n```\n    val collectionConfiguration \u003d\n      s\"\"\"\n        |projects \u003d [\n        |    {\n        |        path \u003d project1\n        |        frequency \u003d 1h\n        |    }\n        |    {\n        |        path \u003d project2\n        |        frequency \u003d 1m\n        |    }\n        |]\n        |\"\"\".stripMargin\n\n    val result \u003d ConfigSource\n      .fromConfig(ConfigFactory.parseString(collectionConfiguration))\n      .load[MetricsConf]\n```",
       "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "687f95ed_b54be163",
+        "filename": "src/test/scala/com/gerritforge/ghs/ConfigSpec.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-28T13:46:10Z",
+      "side": 1,
+      "message": "As discussed IRL, the `Config.apply` takes paths to the files, so passing config strings would require a signature change. We\u0027re going to leave this for now, and make changes as required.",
+      "parentUuid": "7121a3b0_54d71fc9",
+      "revId": "22533b6cbb1d5e3c00e7fccabc8e8a03d96a5b44",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
