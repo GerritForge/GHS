@@ -18,6 +18,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "578ffcee_4a2bc7fd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:05:08Z",
+      "side": 1,
+      "message": "No, it means it doesn\u0027t do Authorization.",
+      "parentUuid": "a91624b2_e9fc0776",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "75f2b2f4_4578414d",
@@ -54,6 +72,24 @@
       "writtenOn": "2023-09-27T23:22:01Z",
       "side": 1,
       "message": "If we are switching, can we do this in a different change?",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d42efb8_762739d1",
+        "filename": "build.sbt",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:05:08Z",
+      "side": 1,
+      "message": "No, I need it for the tests, which will be extremely arduous to develop with munit, and then redo them for scalatest.",
+      "parentUuid": "f2cfb03d_c9985706",
       "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -126,6 +162,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1b2d698_680f2f05",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:05:08Z",
+      "side": 1,
+      "message": "No it is not dictated by Kamon, however Kamon provides a nice way to inject your implementation through config, provided it extends the `EmbeddedHttpServer`. \n\nI did not use a native scala http server because this is hacking 😊 so i went with the fastest possible solution that works (ie just copying what Kamon already provides, and adding the Authorization-check feature) in order to make faster progress, and we can obv swap it in the future with something more native.",
+      "parentUuid": "8da4ccb0_922d180a",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "93b58785_08056108",
@@ -143,6 +197,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "37925fde_aacd61d3",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:05:08Z",
+      "side": 1,
+      "message": "I think it doesnt work with string interpolation, as is the case here - it needs a string literal. At least the compiler complains that `authorizationToken` is an unused variable.",
+      "parentUuid": "93b58785_08056108",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c22a1fc7_2e570ead",
@@ -156,6 +228,24 @@
       "writtenOn": "2023-09-27T23:22:01Z",
       "side": 1,
       "message": "This could be part of the guard.",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58533676_b09c1061",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:05:08Z",
+      "side": 1,
+      "message": "Agreed, this is copied code and i didnt spend time refactoring it. I will do the low-hanging fruit that you highlighted, but keen to not dwell on it too much.",
+      "parentUuid": "c22a1fc7_2e570ead",
       "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -190,6 +280,24 @@
       "writtenOn": "2023-09-27T23:22:01Z",
       "side": 1,
       "message": "In Scala convention this should be named `val AuthorizationHeader` [1]. Is there no Java constant we can use for this, without declaring our own?\n\n[1] https://docs.scala-lang.org/style/naming-conventions.html#constants-values-and-variables",
+      "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ba847a2_3789e01e",
+        "filename": "src/main/scala/http/GhsMetricsServer.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1020920
+      },
+      "writtenOn": "2023-09-28T09:05:08Z",
+      "side": 1,
+      "message": "Too much Java lately, i will change it.\nNo, I couldn\u0027t find a constant to use, without importing yet another library.",
+      "parentUuid": "8c3fa7db_80f95078",
       "revId": "ddef01c2ff1130a2501d6f0369cfd7e88e9fa553",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
