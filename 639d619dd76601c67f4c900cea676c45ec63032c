@@ -118,6 +118,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b63c7e6d_e7d7b460",
+        "filename": "src/main/scala/com/gerritforge/ghs/GhsApp.scala",
+        "patchSetId": 14
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T09:22:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "94a8086f_f24673cb",
+      "range": {
+        "startLine": 25,
+        "startChar": 6,
+        "endLine": 25,
+        "endChar": 16
+      },
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fcbb0673_605dbd71",
@@ -152,6 +176,30 @@
         "id": 1020779
       },
       "writtenOn": "2023-09-29T08:54:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fcbb0673_605dbd71",
+      "range": {
+        "startLine": 38,
+        "startChar": 25,
+        "endLine": 38,
+        "endChar": 32
+      },
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9aeb37bc_b07b6337",
+        "filename": "src/main/scala/com/gerritforge/ghs/GhsApp.scala",
+        "patchSetId": 14
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T09:22:51Z",
       "side": 1,
       "message": "Done",
       "parentUuid": "fcbb0673_605dbd71",
