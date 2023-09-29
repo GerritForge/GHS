@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "317e6a36_ed736c18",
+        "filename": "setup_local_env/README.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-29T13:39:38Z",
+      "side": 1,
+      "message": "Nit: double space.",
+      "range": {
+        "startLine": 16,
+        "startChar": 40,
+        "endLine": 16,
+        "endChar": 42
+      },
+      "revId": "60d8140e28da8cd127e1473a2cb7750661dda805",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
