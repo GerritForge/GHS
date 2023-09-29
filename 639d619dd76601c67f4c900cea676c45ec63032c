@@ -1,0 +1,153 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c03c2f1_20d2d2e8",
+        "filename": "build.sbt",
+        "patchSetId": 14
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-09-29T01:41:35Z",
+      "side": 1,
+      "message": "Better doing this in a separate change",
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f857f502_f4247b5f",
+        "filename": "build.sbt",
+        "patchSetId": 14
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-09-29T01:41:35Z",
+      "side": 1,
+      "message": "Better doing this in a separate change",
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94a8086f_f24673cb",
+        "filename": "src/main/scala/com/gerritforge/ghs/GhsApp.scala",
+        "patchSetId": 14
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-09-29T01:41:35Z",
+      "side": 1,
+      "message": "Maybe  `gitSitePath`?",
+      "range": {
+        "startLine": 25,
+        "startChar": 6,
+        "endLine": 25,
+        "endChar": 16
+      },
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fcbb0673_605dbd71",
+        "filename": "src/main/scala/com/gerritforge/ghs/GhsApp.scala",
+        "patchSetId": 14
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-09-29T01:41:35Z",
+      "side": 1,
+      "message": "If we move the project name to a `String` rather than a `File` we cal avoid this",
+      "range": {
+        "startLine": 38,
+        "startChar": 25,
+        "endLine": 38,
+        "endChar": 32
+      },
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eb307f87_398899ea",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/CustomJobBuilder.scala",
+        "patchSetId": 14
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-09-29T01:41:35Z",
+      "side": 1,
+      "message": "We always need a `function`, the `projectName` and the `metricType` in the `JobData`.\n\nWe could:\n* rename `gcKey` to `functionKey`\n* add the `type` in `CollectionJob` instead of in the `ContextMetrics`\n\nThis way we can have a single generic class encapsulating the concept of context.\n\nFurthermore, since we know beforehand the structure of `ContextMetrics` we could represent it with a case class instead of having it in a `Map`.\nSomething like:\n\n```\ncase class ContextData(projectName: String, metricType: String, collectFn: Function[Unit, AnyRef])\n```",
+      "range": {
+        "startLine": 26,
+        "startChar": 6,
+        "endLine": 30,
+        "endChar": 7
+      },
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67951146_3d7a8f20",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/SchedulerUtilities.scala",
+        "patchSetId": 14
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-09-29T01:41:35Z",
+      "side": 1,
+      "message": "If we move the metric type inside the `CollectionJob`, I believe it would make sense at that point to pass an instance of the class here.\n\nSo we could get rid of the generic. Or am I missing something? WDYT?",
+      "range": {
+        "startLine": 10,
+        "startChar": 13,
+        "endLine": 10,
+        "endChar": 33
+      },
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44c4b1bd_46c7b636",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/SchedulerUtilities.scala",
+        "patchSetId": 14
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-09-29T01:41:35Z",
+      "side": 1,
+      "message": "`projectName`",
+      "range": {
+        "startLine": 12,
+        "startChar": 8,
+        "endLine": 12,
+        "endChar": 27
+      },
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
