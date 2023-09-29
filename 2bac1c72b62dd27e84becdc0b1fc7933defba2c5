@@ -24,6 +24,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3afdc76_cac3f379",
+        "filename": "src/main/scala/com/gerritforge/ghs/config/MetricsConf.scala",
+        "patchSetId": 5
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T07:37:25Z",
+      "side": 1,
+      "message": "you are correct.",
+      "parentUuid": "b1b0a739_b9443aba",
+      "range": {
+        "startLine": 6,
+        "startChar": 29,
+        "endLine": 6,
+        "endChar": 39
+      },
+      "revId": "2bac1c72b62dd27e84becdc0b1fc7933defba2c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "73dd4c5d_69e4689d",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-09-29T01:08:10Z",
       "side": 1,
       "message": "This should be a `String`, right? IT should be the name of the repo",
+      "range": {
+        "startLine": 9,
+        "startChar": 33,
+        "endLine": 9,
+        "endChar": 37
+      },
+      "revId": "2bac1c72b62dd27e84becdc0b1fc7933defba2c5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c62d8d0b_ace093a2",
+        "filename": "src/main/scala/com/gerritforge/ghs/config/MetricsConf.scala",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T07:37:25Z",
+      "side": 1,
+      "message": "you are right.",
+      "parentUuid": "73dd4c5d_69e4689d",
       "range": {
         "startLine": 9,
         "startChar": 33,
