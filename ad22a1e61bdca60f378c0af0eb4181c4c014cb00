@@ -1,0 +1,164 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "25b85362_844ead77",
+        "filename": "setup_local_env/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-29T12:07:20Z",
+      "side": 1,
+      "message": "Double space.",
+      "range": {
+        "startLine": 3,
+        "startChar": 73,
+        "endLine": 3,
+        "endChar": 75
+      },
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47042820_cc726a36",
+        "filename": "setup_local_env/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-29T12:07:20Z",
+      "side": 1,
+      "message": "Nit: can we generate the jar name dynamically, e.g. using `find`?",
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ecd4215_4a251fe8",
+        "filename": "setup_local_env/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-29T12:07:20Z",
+      "side": 1,
+      "message": "Nit: can we have this as `localhost` so it\u0027s consistent with the hostnames in the rest of the readme.",
+      "range": {
+        "startLine": 21,
+        "startChar": 53,
+        "endLine": 21,
+        "endChar": 62
+      },
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03785bae_27bdd4d1",
+        "filename": "setup_local_env/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-29T12:07:20Z",
+      "side": 1,
+      "message": "Typo: `accessible`.",
+      "range": {
+        "startLine": 25,
+        "startChar": 88,
+        "endLine": 25,
+        "endChar": 97
+      },
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d893245a_ce938654",
+        "filename": "setup_local_env/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-29T12:07:20Z",
+      "side": 1,
+      "message": "Isn\u0027t this `docker compose up` as of docker compose V2?",
+      "range": {
+        "startLine": 25,
+        "startChar": 17,
+        "endLine": 25,
+        "endChar": 34
+      },
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6aa32803_e6f7dd9a",
+        "filename": "setup_local_env/docker-compose.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-29T12:07:20Z",
+      "side": 1,
+      "message": "Is this necessary? The docker docs [1] suggest have the same setup but don\u0027t specify this flag, so it should be picked up anyway.\n\n[1] https://hub.docker.com/r/prom/prometheus",
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e20fff59_84274a5b",
+        "filename": "setup_local_env/docker-compose.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-29T12:07:20Z",
+      "side": 1,
+      "message": "Just a question - these are set to the default. Are they here so we have them documented (and don\u0027t need to look them up to remember the defaults)?",
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b7a9bbbc_477550c6",
+        "filename": "setup_local_env/prometheus.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-09-29T12:07:20Z",
+      "side": 1,
+      "message": "This is Docker desktop thing, it won\u0027t work on Linux machines.",
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
