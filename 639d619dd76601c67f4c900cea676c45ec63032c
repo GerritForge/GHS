@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c400af2b_af2c729c",
+        "filename": "build.sbt",
+        "patchSetId": 14
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T08:54:53Z",
+      "side": 1,
+      "message": "This is for testing purposes, I will remove it later.",
+      "parentUuid": "7c03c2f1_20d2d2e8",
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f857f502_f4247b5f",
         "filename": "build.sbt",
         "patchSetId": 14
@@ -31,6 +49,24 @@
       "writtenOn": "2023-09-29T01:41:35Z",
       "side": 1,
       "message": "Better doing this in a separate change",
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f590c47_93704542",
+        "filename": "build.sbt",
+        "patchSetId": 14
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T08:54:53Z",
+      "side": 1,
+      "message": "same as above",
+      "parentUuid": "f857f502_f4247b5f",
       "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -58,6 +94,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "282e1e1f_57600694",
+        "filename": "src/main/scala/com/gerritforge/ghs/GhsApp.scala",
+        "patchSetId": 14
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T08:54:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "94a8086f_f24673cb",
+      "range": {
+        "startLine": 25,
+        "startChar": 6,
+        "endLine": 25,
+        "endChar": 16
+      },
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fcbb0673_605dbd71",
@@ -71,6 +131,30 @@
       "writtenOn": "2023-09-29T01:41:35Z",
       "side": 1,
       "message": "If we move the project name to a `String` rather than a `File` we cal avoid this",
+      "range": {
+        "startLine": 38,
+        "startChar": 25,
+        "endLine": 38,
+        "endChar": 32
+      },
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b0007de_39364e2a",
+        "filename": "src/main/scala/com/gerritforge/ghs/GhsApp.scala",
+        "patchSetId": 14
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T08:54:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fcbb0673_605dbd71",
       "range": {
         "startLine": 38,
         "startChar": 25,
@@ -106,6 +190,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c4233332_a5b2936c",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/CustomJobBuilder.scala",
+        "patchSetId": 14
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T08:54:53Z",
+      "side": 1,
+      "message": "I did a refactoring following your approach. I believe that we could improve it more.",
+      "parentUuid": "eb307f87_398899ea",
+      "range": {
+        "startLine": 26,
+        "startChar": 6,
+        "endLine": 30,
+        "endChar": 7
+      },
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "67951146_3d7a8f20",
         "filename": "src/main/scala/com/gerritforge/ghs/metrics/SchedulerUtilities.scala",
         "patchSetId": 14
@@ -129,6 +237,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2d90a586_aa7f470a",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/SchedulerUtilities.scala",
+        "patchSetId": 14
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T08:54:53Z",
+      "side": 1,
+      "message": "I removed the generic and I am passing JGit instance but I think we need to revisit this at some point because I am not convinced at all.",
+      "parentUuid": "67951146_3d7a8f20",
+      "range": {
+        "startLine": 10,
+        "startChar": 13,
+        "endLine": 10,
+        "endChar": 33
+      },
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "44c4b1bd_46c7b636",
         "filename": "src/main/scala/com/gerritforge/ghs/metrics/SchedulerUtilities.scala",
         "patchSetId": 14
@@ -140,6 +272,30 @@
       "writtenOn": "2023-09-29T01:41:35Z",
       "side": 1,
       "message": "`projectName`",
+      "range": {
+        "startLine": 12,
+        "startChar": 8,
+        "endLine": 12,
+        "endChar": 27
+      },
+      "revId": "639d619dd76601c67f4c900cea676c45ec63032c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dac2c411_4dbcd079",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/SchedulerUtilities.scala",
+        "patchSetId": 14
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T08:54:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "44c4b1bd_46c7b636",
       "range": {
         "startLine": 12,
         "startChar": 8,
