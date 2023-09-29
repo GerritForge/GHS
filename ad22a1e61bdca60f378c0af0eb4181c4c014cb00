@@ -24,6 +24,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "360b3123_539f4431",
+        "filename": "setup_local_env/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T13:23:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "25b85362_844ead77",
+      "range": {
+        "startLine": 3,
+        "startChar": 73,
+        "endLine": 3,
+        "endChar": 75
+      },
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "47042820_cc726a36",
@@ -41,6 +65,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "eea1e15e_9c523139",
+        "filename": "setup_local_env/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T13:23:29Z",
+      "side": 1,
+      "message": "a quick solution would be: \n```\nfind . -name \"GHS-assembly*.jar\" | xargs  java -jar\n```",
+      "parentUuid": "47042820_cc726a36",
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0ecd4215_4a251fe8",
@@ -54,6 +96,30 @@
       "writtenOn": "2023-09-29T12:07:20Z",
       "side": 1,
       "message": "Nit: can we have this as `localhost` so it\u0027s consistent with the hostnames in the rest of the readme.",
+      "range": {
+        "startLine": 21,
+        "startChar": 53,
+        "endLine": 21,
+        "endChar": 62
+      },
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fdcb6d50_e85b92e1",
+        "filename": "setup_local_env/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T13:23:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0ecd4215_4a251fe8",
       "range": {
         "startLine": 21,
         "startChar": 53,
@@ -110,6 +176,54 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee5fc606_8a634bcf",
+        "filename": "setup_local_env/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T13:23:29Z",
+      "side": 1,
+      "message": "docker compose v2 (mine is `Docker Compose version v2.17.3`) works with both commands:\n- docker-compose\n- docker compose\n\nI guess to keep backward compatibility between old scripts. I am happy to change to `docker compose`.",
+      "parentUuid": "d893245a_ce938654",
+      "range": {
+        "startLine": 25,
+        "startChar": 17,
+        "endLine": 25,
+        "endChar": 34
+      },
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27bb6b5b_26bc62bf",
+        "filename": "setup_local_env/README.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T13:23:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "03785bae_27bdd4d1",
+      "range": {
+        "startLine": 25,
+        "startChar": 88,
+        "endLine": 25,
+        "endChar": 97
+      },
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6aa32803_e6f7dd9a",
@@ -123,6 +237,24 @@
       "writtenOn": "2023-09-29T12:07:20Z",
       "side": 1,
       "message": "Is this necessary? The docker docs [1] suggest have the same setup but don\u0027t specify this flag, so it should be picked up anyway.\n\n[1] https://hub.docker.com/r/prom/prometheus",
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae0e922f_3116018a",
+        "filename": "setup_local_env/docker-compose.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T13:23:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6aa32803_e6f7dd9a",
       "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
@@ -144,6 +276,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ecb7e43_05b38b2c",
+        "filename": "setup_local_env/docker-compose.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T13:23:29Z",
+      "side": 1,
+      "message": "Personally I always forget the credentials such `dbs`, `UIs` in the docker containers. So I think we could leave them here.",
+      "parentUuid": "e20fff59_84274a5b",
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b7a9bbbc_477550c6",
@@ -157,6 +307,24 @@
       "writtenOn": "2023-09-29T12:07:20Z",
       "side": 1,
       "message": "This is Docker desktop thing, it won\u0027t work on Linux machines.",
+      "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfb75918_fa653e55",
+        "filename": "setup_local_env/prometheus.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T13:23:29Z",
+      "side": 1,
+      "message": "As we testes, you are totally right. I will fix it in a follow up change.",
+      "parentUuid": "b7a9bbbc_477550c6",
       "revId": "ad22a1e61bdca60f378c0af0eb4181c4c014cb00",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }

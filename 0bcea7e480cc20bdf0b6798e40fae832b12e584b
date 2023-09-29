@@ -33,6 +33,24 @@
       "message": "I would add providing a basic dashboard which visualises some key metrics as another step, something to get the user started.",
       "revId": "0bcea7e480cc20bdf0b6798e40fae832b12e584b",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e250591c_85c6851c",
+        "filename": "setup_local_env/README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-09-29T13:23:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a10e88fa_e6d1cdf1",
+      "revId": "0bcea7e480cc20bdf0b6798e40fae832b12e584b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
