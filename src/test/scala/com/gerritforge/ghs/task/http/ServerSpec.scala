@@ -1,6 +1,6 @@
 package com.gerritforge.ghs.task.http
 
-import com.gerritforge.ghs.task.Tasks
+import com.gerritforge.ghs.task.Task
 import org.scalatest.EitherValues
 import org.scalatest.concurrent.ScalaFutures
 import org.scalatest.flatspec.AsyncFlatSpec
@@ -16,8 +16,8 @@ class ServerSpec extends AsyncFlatSpec with Matchers with EitherValues with Scal
 
   it should "respond to the project tasks endpoint" in {
 
-    val project  = Tasks.Project("name", "command", "parameters")
-    val endpoint = Server.tasksProjectEndpoint(project)
+    val task     = Task("name", List("arg1", "arg2"), "command", "parameters")
+    val endpoint = Server.taskEndpoint(task)
 
     val backendStub: SttpBackend[Future, Any] = TapirStubInterpreter(SttpBackendStub.asynchronousFuture)
       .whenServerEndpoint(endpoint)
@@ -25,7 +25,7 @@ class ServerSpec extends AsyncFlatSpec with Matchers with EitherValues with Scal
       .backend()
 
     val response = basicRequest
-      .post(uri"http://test.com/tasks/${project.name}")
+      .post(uri"http://test.com/tasks/${task.name}?arg1=foo&arg2=bar")
       .send(backendStub)
 
     response.map { r =>
