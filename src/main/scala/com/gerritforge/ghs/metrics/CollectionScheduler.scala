@@ -20,13 +20,26 @@ object Metric {
 
 final class CollectionScheduler(scheduler: Scheduler) {
   def schedule(project: MetricsCollection.Project, metric: Metric): Date = {
-    scheduler.scheduleJob(buildJobDetail(project, metric), buildTrigger(project, metric))
+    val (jobDetail, trigger) = metric match {
+      case jgit @ Metric.JGit =>
+        (buildJobDetail(project, MetricsData.JGitData(project), jgit), buildTrigger(project, jgit))
+      case fs @ Metric.FileSystem =>
+        (buildJobDetail(project, MetricsData.FSData(project), fs), buildTrigger(project, fs))
+    }
+    scheduler.scheduleJob(jobDetail, trigger)
   }
 
-  private def buildJobDetail(project: MetricsCollection.Project, metric: Metric): JobDetail = {
+  private def buildJobDetail(
+      project: MetricsCollection.Project,
+      contextData: MetricsData,
+      metric: Metric
+  ): JobDetail = {
+    val data = new JobDataMap()
+    data.put("data", contextData)
     JobBuilder
       .newJob(classOf[CollectionJob])
       .withIdentity(project.name, metric.`type`)
+      .usingJobData(data)
       .build
   }
 
