@@ -2,23 +2,30 @@ package com.gerritforge.ghs.metrics
 
 import com.gerritforge.ghs.Config
 import kamon.Kamon
+import org.eclipse.jgit.internal.storage.file.{FileRepository, GC}
+
+import java.io.File
 
 sealed trait MetricsData {
   def collectFn: () => Unit
 }
 
 object MetricsData {
-  final case class JGitData(project: Config.MetricsCollection.Project) extends MetricsData {
+  final case class JGitData(gitSiteBasePath: File, project: Config.MetricsCollection.Project) extends MetricsData {
+    private val repository = gitSiteBasePath.getAbsolutePath + "/" + project.name
+    private val gc         = new GC(new FileRepository(repository))
     override def collectFn: () => Unit = () => {
+      val repoStatistics = gc.getStatistics
+
       List(
-        ("numberOfPackedObjects", 0),
-        ("numberOfPackFiles", 0),
-        ("numberOfLooseObjects", 0),
-        ("numberOfLooseRefs", 0),
-        ("numberOfPackedRefs", 0),
-        ("sizeOfLooseObjects", 0),
-        ("sizeOfPackedObjects", 0),
-        ("numberOfBitmaps", 0)
+        ("numberOfPackedObjects", repoStatistics.numberOfPackedObjects),
+        ("numberOfPackFiles", repoStatistics.numberOfPackFiles),
+        ("numberOfLooseObjects", repoStatistics.numberOfLooseObjects),
+        ("numberOfLooseRefs", repoStatistics.numberOfLooseRefs),
+        ("numberOfPackedRefs", repoStatistics.numberOfPackedRefs),
+        ("sizeOfLooseObjects", repoStatistics.sizeOfLooseObjects),
+        ("sizeOfPackedObjects", repoStatistics.sizeOfPackedObjects),
+        ("numberOfBitmaps", repoStatistics.numberOfBitmaps)
       ).foreach { case (metricName, metricValue) =>
         Kamon
           .gauge(metricName)

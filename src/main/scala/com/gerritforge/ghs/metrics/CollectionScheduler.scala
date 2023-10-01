@@ -3,6 +3,7 @@ package com.gerritforge.ghs.metrics
 import com.gerritforge.ghs.Config.MetricsCollection
 import org.quartz._
 
+import java.io.File
 import java.util.Date
 
 sealed trait Metric {
@@ -19,10 +20,10 @@ object Metric {
 }
 
 final class CollectionScheduler(scheduler: Scheduler) {
-  def schedule(project: MetricsCollection.Project, metric: Metric): Date = {
+  def schedule(gitSiteBasePath: File, project: MetricsCollection.Project, metric: Metric): Date = {
     val (jobDetail, trigger) = metric match {
       case jgit @ Metric.JGit =>
-        (buildJobDetail(project, MetricsData.JGitData(project), jgit), buildTrigger(project, jgit))
+        (buildJobDetail(project, MetricsData.JGitData(gitSiteBasePath, project), jgit), buildTrigger(project, jgit))
       case fs @ Metric.FileSystem =>
         (buildJobDetail(project, MetricsData.FSData(project), fs), buildTrigger(project, fs))
     }
