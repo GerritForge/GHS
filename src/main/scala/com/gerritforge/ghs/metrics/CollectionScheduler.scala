@@ -25,7 +25,7 @@ final class CollectionScheduler(scheduler: Scheduler) {
       case jgit @ Metric.JGit =>
         (buildJobDetail(project, MetricsData.JGitData(gitSiteBasePath, project), jgit), buildTrigger(project, jgit))
       case fs @ Metric.FileSystem =>
-        (buildJobDetail(project, MetricsData.FSData(project), fs), buildTrigger(project, fs))
+        (buildJobDetail(project, MetricsData.FSData(gitSiteBasePath, project), fs), buildTrigger(project, fs))
     }
     scheduler.scheduleJob(jobDetail, trigger)
   }

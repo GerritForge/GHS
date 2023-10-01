@@ -10,4 +10,5 @@ object Dependencies {
   lazy val scalaLogging = "com.typesafe.scala-logging"    %% "scala-logging"    % "3.9.5"
   lazy val scalaTest    = "org.scalatest"                 %% "scalatest"        % "3.2.17"
   lazy val sttp         = "com.softwaremill.sttp.client3" %% "core"             % "3.9.0"
+  lazy val cats         = "org.typelevel"                 %% "cats-core"        % "2.10.0"
 }
