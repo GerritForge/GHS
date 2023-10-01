@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9427cf78_77c97e3c",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/CollectionJob.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1020779
+      },
+      "writtenOn": "2023-10-01T18:45:19Z",
+      "side": 1,
+      "message": "replace with proper log",
+      "revId": "959f006917e18efcd49910be86f32b60a2a8c980",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
