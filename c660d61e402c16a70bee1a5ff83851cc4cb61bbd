@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b95c74a_149cd82e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-10-02T10:20:53Z",
+      "side": 1,
+      "message": "Some comments on the file system reading, but to be fair it\u0027s still early days so if you want to address them in a separate change, that works too.",
+      "revId": "c660d61e402c16a70bee1a5ff83851cc4cb61bbd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "91d10965_261fd896",
+        "filename": "build.sbt",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-10-02T10:20:53Z",
+      "side": 1,
+      "message": "Can we keep this list alphabetically ordered. This makes it easier to spot dependencies as it grows.",
+      "revId": "c660d61e402c16a70bee1a5ff83851cc4cb61bbd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07278be3_c33f5b23",
+        "filename": "project/Dependencies.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-10-02T10:20:53Z",
+      "side": 1,
+      "message": "Can we keep these vals alphabetically ordered please.",
+      "revId": "c660d61e402c16a70bee1a5ff83851cc4cb61bbd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "546d5bf0_233ebb5a",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/MetricsData.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-10-02T10:20:53Z",
+      "side": 1,
+      "message": "I\u0027ve only read some of this, but since cats 2.2.0 the preferred import is `cats.syntax.all._`, not `cats.implicits._`. This provides some compiler improvements.\n\n[1] https://eed3si9n.com/herding-cats/import-guide.html",
+      "revId": "c660d61e402c16a70bee1a5ff83851cc4cb61bbd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ec2c5cd_8f535f0f",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/MetricsData.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-10-02T10:20:53Z",
+      "side": 1,
+      "message": "I\u0027d prefer we brought in `os-lib` [1] instead of doing this in a Java library and then using the Scala converters, and I think we\u0027ve already decided to use this library as the executor of the task anyway. There is a section on listing and walking [2].\n\n[1] https://github.com/com-lihaoyi/os-lib\n[2] https://github.com/com-lihaoyi/os-lib#listing--walking",
+      "revId": "c660d61e402c16a70bee1a5ff83851cc4cb61bbd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a80e6f31_21168d79",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/MetricsData.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-10-02T10:20:53Z",
+      "side": 1,
+      "message": "Can we check `isFile`/`isDirectory` once per iteration, rather than once per argument?",
+      "revId": "c660d61e402c16a70bee1a5ff83851cc4cb61bbd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "606867c2_6013f1cb",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/MetricsData.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-10-02T10:20:53Z",
+      "side": 1,
+      "message": "Can this belong in an `apply` method? This would provide a better level of abstraction for this function, IMO.",
+      "revId": "c660d61e402c16a70bee1a5ff83851cc4cb61bbd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae33a50c_217bb94e",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/MetricsData.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-10-02T10:20:53Z",
+      "side": 1,
+      "message": "I think calling `f.listFiles` could be quite inefficient here (and maybe even unsafe), as this constructs an array with all entries inflated to `File`, to then just check whether it\u0027s empty.",
+      "revId": "c660d61e402c16a70bee1a5ff83851cc4cb61bbd",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
