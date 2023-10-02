@@ -14,6 +14,8 @@ ThisBuild / semanticdbVersion := scalafixSemanticdb.revision
 // https://github.com/typelevel/sbt-tpolecat#scalatest-warnings
 Test / tpolecatExcludeOptions += ScalacOptions.warnNonUnitStatement
 
+ThisBuild / tpolecatDefaultOptionsMode := org.typelevel.sbt.tpolecat.DevMode
+
 lazy val root = (project in file("."))
   .settings(
     name := "GHS",
@@ -21,6 +23,7 @@ lazy val root = (project in file("."))
       jgit,
       kamon,
       logback,
+      osLib,
       pureConfig,
       quartz,
       scalaLogging,

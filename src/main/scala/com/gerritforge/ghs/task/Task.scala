@@ -1,3 +1,5 @@
 package com.gerritforge.ghs.task
 
-final case class Task(name: String, inputs: List[String], command: String, parameters: String)
+import scala.concurrent.duration.FiniteDuration
+
+final case class Task(name: String, inputs: List[String], command: List[String], timeout: Option[FiniteDuration] = None)
