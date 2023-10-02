@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3531a83b_4a2bc286",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/MetricsData.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-10-02T09:34:15Z",
+      "side": 1,
+      "message": "Nit: the signature of this class could be `JGitData(gc: GC, project: ...`. We could then use an apply method that accepts a file and builds the GC object, which is what this class is concerned with.",
+      "revId": "4011d1960c7a742847fd0597d10d64876ffd67c6",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
