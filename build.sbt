@@ -21,6 +21,7 @@ lazy val root = (project in file("."))
       jgit,
       kamon,
       logback,
+      osLib,
       pureConfig,
       quartz,
       scalaLogging,

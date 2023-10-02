@@ -16,7 +16,7 @@ class ServerSpec extends AsyncFlatSpec with Matchers with EitherValues with Scal
 
   it should "respond to the project tasks endpoint" in {
 
-    val task     = Task("name", List("arg1", "arg2"), "command", "parameters")
+    val task     = Task("name", List("arg1", "arg2"), List("echo", "parameters"))
     val endpoint = Server.taskEndpoint(task)
 
     val backendStub: SttpBackend[Future, Any] = TapirStubInterpreter(SttpBackendStub.asynchronousFuture)
@@ -29,8 +29,31 @@ class ServerSpec extends AsyncFlatSpec with Matchers with EitherValues with Scal
       .send(backendStub)
 
     response.map { r =>
+      withClue(r) {
+        r.code shouldBe StatusCode.Accepted
+        r.body.value shouldBe ""
+      }
+    }
+  }
+
+  it should "run the task asynchronously" in {
+    val tempFile = os.temp.dir() / "foo"
+    val task     = Task("create-file", List("fileName"), List("touch"))
+    val endpoint = Server.taskEndpoint(task)
+
+    val backendStub: SttpBackend[Future, Any] = TapirStubInterpreter(SttpBackendStub.asynchronousFuture)
+      .whenServerEndpoint(endpoint)
+      .thenRunLogic()
+      .backend()
+
+    val response = basicRequest
+      .post(uri"http://test.com/tasks/${task.name}?fileName=${tempFile}")
+      .send(backendStub)
+
+    response.map { r =>
       r.code shouldBe StatusCode.Accepted
       r.body.value shouldBe ""
+      assert(os.exists(tempFile))
     }
   }
 }
