@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee743516_6fda0e94",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/MetricsData.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-10-02T09:24:34Z",
+      "side": 1,
+      "message": "A question about how this works - if we look at where this is called, it\u0027s run on execute, so we\u0027re collecting metrics. But we also call update to 0. Is this stub code, or does the setter only apply if the metric doesn\u0027t exist?",
+      "revId": "b5a069d31a474c5a29408766af9191a22342c237",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "620604a1_37159c0d",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/MetricsData.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-10-02T09:24:34Z",
+      "side": 1,
+      "message": "A question about how this works - can we not build this set of gauges once at construction time (i.e. when they\u0027re added to the scheduler), and collect their values at every invocation? Or do we need to build them all every time we want to collect them, the way we do at the moment?",
+      "revId": "b5a069d31a474c5a29408766af9191a22342c237",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "89fcec4f_931f46fa",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/MetricsData.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-10-02T09:24:34Z",
+      "side": 1,
+      "message": "Please sort this (and the below) list alphabetically.",
+      "revId": "b5a069d31a474c5a29408766af9191a22342c237",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8855c04d_6a51e008",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/MetricsData.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1019805
+      },
+      "writtenOn": "2023-10-02T09:24:34Z",
+      "side": 1,
+      "message": "Nit: does 0 have to be part of the tuple? Can we do `val metricValue \u003d 0` in the `foreach` directly (also for `FSData`)?",
+      "revId": "b5a069d31a474c5a29408766af9191a22342c237",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
