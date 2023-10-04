@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a2a56937_6d0f627b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-10-04T01:05:01Z",
+      "side": 1,
+      "message": "+1",
+      "parentUuid": "e355037e_9cc2c44f",
+      "revId": "959f006917e18efcd49910be86f32b60a2a8c980",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9427cf78_77c97e3c",
         "filename": "src/main/scala/com/gerritforge/ghs/metrics/CollectionJob.scala",
         "patchSetId": 1
@@ -31,6 +49,47 @@
       "writtenOn": "2023-10-01T18:45:19Z",
       "side": 1,
       "message": "replace with proper log",
+      "revId": "959f006917e18efcd49910be86f32b60a2a8c980",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4f02756d_4b7c50cf",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/CollectionJob.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-10-04T01:05:01Z",
+      "side": 1,
+      "message": "not part of this change",
+      "parentUuid": "9427cf78_77c97e3c",
+      "revId": "959f006917e18efcd49910be86f32b60a2a8c980",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1615bb62_cbc5b6da",
+        "filename": "src/main/scala/com/gerritforge/ghs/metrics/CollectionScheduler.scala",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-10-04T01:05:01Z",
+      "side": 1,
+      "message": "nit: I would go for `fileSystem` . Less cryptic",
+      "range": {
+        "startLine": 17,
+        "startChar": 27,
+        "endLine": 17,
+        "endChar": 29
+      },
       "revId": "959f006917e18efcd49910be86f32b60a2a8c980",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
