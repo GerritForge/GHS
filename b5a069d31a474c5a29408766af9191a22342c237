@@ -49,6 +49,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f1081f41_be2f0e60",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2023-10-04T02:02:13Z",
+      "side": 1,
+      "message": "Or maybe \"Add gauges to for JGit and FS metrics and logic to collect the metrics. The data collection and the population of the gauges will be done in a followup change.\"\n\nSomething along these lines maybe?",
+      "parentUuid": "acbf4e78_1f58c4fb",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 63
+      },
+      "revId": "b5a069d31a474c5a29408766af9191a22342c237",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "954f1aa7_5dfce49c",
         "filename": "src/main/scala/com/gerritforge/ghs/metrics/CollectionScheduler.scala",
         "patchSetId": 1
